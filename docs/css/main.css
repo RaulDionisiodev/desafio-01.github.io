@@ -1,0 +1,246 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+* {
+	box-sizing: border-box;
+	font-family: montserrat;
+}
+
+header{
+	background-attachment: fixed;
+	background-image: url(/public/img/capa-madmax2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	color: white;
+	z-index: -1;
+}
+
+
+header nav{
+	display: flex;
+}
+
+header nav .logo{
+	padding: 20px;
+	padding-left: 162px;
+}
+
+header nav ul{
+	display: flex;
+	margin: 0px 100px 0px 100px;
+	padding: 0px 30px;
+	justify-content: space-around;
+	align-items: center;
+}
+
+header nav ul li{
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color: white;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 20px 40px;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+header nav ul li a:hover{
+	color: yellow;
+}
+
+header .user {
+	display: flex;
+	padding: 30px;
+}
+
+header .user .user-photo img{
+	width: 50px;
+	border-radius: 50%;
+}
+
+header .user .user-name{
+   margin: 10px 15px;
+   font-weight: bold;
+}
+
+header .container{
+	margin: 0 auto;
+}
+
+header .container h1{
+	font-size: 70px;
+	margin: -20px 0px 0px 150px;
+	font-weight: bold;
+}
+
+header .hero-genero a{
+	text-decoration: none;
+	color: white;
+	margin: 0px -131px 0px 150px;
+	
+}
+
+header .hero-genero a:hover{
+	color: yellow;
+}
+
+
+header button{
+	color: black;
+	background-color: yellow;
+	width: 250px;
+	border-radius: 40px;
+	display: inline-block;
+	padding: 10px;
+	margin: 10px 145px;
+	font-size: 15px;
+}
+
+header button:hover{
+	background-color: rgb(182, 182, 55);
+}
+
+header button a{
+	text-decoration: none;
+}
+
+header .info{
+	color: white;
+	margin: 10px 150px;
+	padding: 10px 10px 50px 0px;
+}
+
+header #text2{
+	color: #bc9a1d;
+}
+
+section nav ul{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 250px;
+}
+
+section .movies-menu ul li a{
+	display: flex;
+	text-decoration: none;
+	color: yellow;
+	font-weight: bold;
+}
+
+section hr{
+	width: 75%;
+	opacity: 0.3;
+}
+
+.movie-list{
+	list-style-type: none;
+}
+
+.movie-list{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 25px 100px;
+	flex-direction: row;
+	
+}
+
+.movie-cards ul li{
+	width: 24%;
+	border-radius: 15%;
+}
+.movie-cards ul li img{
+	width: 100%;
+	height: auto;
+	border-radius: 10% 10% 0% 0%;
+}
+
+.movie-detail .name{
+	font-weight: bold;
+	margin: 0px 40PX;
+}
+
+.movie-detail .genre{
+	color: yellow;
+	margin: 10px 40PX;
+	font-size: 12PX;
+}
+
+.movie-detail .note{
+	display: flex;
+	font-weight: bold;
+	justify-content: space-around;
+	margin: 13px 0px 10px -24px;
+	
+}
+
+.movie-detail .note .fa-heart{
+	color: rgba(194, 192, 192, 0.87);
+
+}
+
+.movie-detail .note .fa-heart:hover{
+	color: red;
+
+}
+
+figure{
+	position: relative;
+}
+
+.movie-info{
+	display: none;
+	position: absolute;
+	bottom: 40%;
+	left: 12%;
+}
+
+.movie-info i{
+	text-align: center;
+	font-size: 60px;
+	color: white;
+	margin: 0px 35px;
+}
+
+.movie-info h3{
+	font-size: 20px;
+	color: yellow;
+}
+
+figure:hover{
+	filter: brightness(0.6);
+}
+
+figure:hover .movie-info{
+	display: block;
+}
+
+footer div{
+	display: flex;
+	justify-content: space-between;
+}
+
+footer div img{
+	padding: 30px;
+	margin: 15px 130px;
+}
+
+footer div ul{
+	display: flex;
+	margin: 40px 170px;
+}
+
+footer div ul li{
+	list-style-type: none;
+	margin: 8px 10px;
+}
+
+footer div ul li a{
+	color: #bababa;
+	font-size: 2.5em;
+} 
